@@ -4,7 +4,7 @@ Jesus Sosa Morales
 
 ### NOMBRE
 
-Where see?
+WHERE TO WATCH?
 
 
 ### IDEA DE LA APLICACIÓN
@@ -41,6 +41,7 @@ Otras ideas son:
     <li>Calendario con estrenos de peliculas/series que hayas seleccionado.</li>
     <li>Ver contenido por categorías.</li>
     <li>Encontrar ofertas de las plataformas de streaming</li>
+    <li>Poder ver trailers redireccionados a youtube</li>
 </ul>
 
 
