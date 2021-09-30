@@ -1,18 +1,20 @@
-### ANALÍSIS CREACION DE MI APLICACIÓN
+## ANALÍSIS CREACION DE MI APLICACIÓN
 
-## NOMBRE
+Jesus Sosa Morales
+
+### NOMBRE
 
 Where see?
 
 
-## IDEA DE LA APLICACIÓN
+### IDEA DE LA APLICACIÓN
 
 
-<div>
+
 Aplicación que nos permitira estar informado de la actualidad acerca de nuestras peliculas o series favoritas. El sector de las plataformas de streaming es
 altamente demandado, y mas en la actualidad y tiempos que corren. Existen numerosas plataformas de entretenimiento digitales como Netflix, HBO o Amazon Prime
 entre otras.
-</div>
+
 
 Al haber una gran cantidad de plataformas hay una gran competencias entre estás y lo que diferenciaran las unas a las otras serán sus precios y contenido exclusivo,
 es decir que solo se encuentran disponible en su plataforma. En ocasiones una serie pasa de plataforma en plataforma dejando a los usuarios dudativos a la hora de
@@ -32,11 +34,20 @@ Tambien podran estar informados de las noticias de sus series/peliculas favorita
 
 Otras ideas son: 
 
-Con esta aplicación puedas encontrar el cine mas cercano, con su cartelera.
-Poder buscar peliculas atraves de actores,directores, compañia (por ejemplo Marvel, DC,etc).
-Valoraciones de peliculas/series.
-Calendario con estrenos de peliculas/series que hayas seleccionado.
-Ver contenido por categorías.
+<ul>
+    <li>Con esta aplicación puedas encontrar el cine mas cercano, con su cartelera.</li>
+    <li>Poder buscar peliculas atraves de actores,directores, compañia (por ejemplo Marvel, DC,etc).</li>
+    <li>Valoraciones de peliculas/series.</li>
+    <li>Calendario con estrenos de peliculas/series que hayas seleccionado.</li>
+    <li>Ver contenido por categorías.</li>
+    <li>Encontrar ofertas de las plataformas de streaming</li>
+</ul>
+
+
+
+
+
+
 
 
 
