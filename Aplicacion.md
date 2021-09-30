@@ -1,15 +1,18 @@
-###ANALÍSIS CREACION DE MI APLICACIÓN
+### ANALÍSIS CREACION DE MI APLICACIÓN
 
-##NOMBRE
+## NOMBRE
 
 Where see?
 
 
-##IDEA DE LA APLICACIÓN
+## IDEA DE LA APLICACIÓN
 
+
+<div>
 Aplicación que nos permitira estar informado de la actualidad acerca de nuestras peliculas o series favoritas. El sector de las plataformas de streaming es
 altamente demandado, y mas en la actualidad y tiempos que corren. Existen numerosas plataformas de entretenimiento digitales como Netflix, HBO o Amazon Prime
 entre otras.
+</div>
 
 Al haber una gran cantidad de plataformas hay una gran competencias entre estás y lo que diferenciaran las unas a las otras serán sus precios y contenido exclusivo,
 es decir que solo se encuentran disponible en su plataforma. En ocasiones una serie pasa de plataforma en plataforma dejando a los usuarios dudativos a la hora de
