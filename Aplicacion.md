@@ -1,4 +1,4 @@
-## ANALÍSIS CREACION DE MI APLICACIÓN
+## ANÁLISIS CREACIÓN DE MI APLICACIÓN
 
 Jesus Sosa Morales
 
@@ -11,35 +11,35 @@ WHERE TO WATCH?
 
 
 
-Aplicación que nos permitira estar informado de la actualidad acerca de nuestras peliculas o series favoritas. El sector de las plataformas de streaming es
-altamente demandado, y mas en la actualidad y tiempos que corren. Existen numerosas plataformas de entretenimiento digitales como Netflix, HBO o Amazon Prime
+Aplicación que nos permitirá estar informado de la actualidad acerca de nuestras películas o series favoritas. El sector de las plataformas de streaming es
+altamente demandado, y más en la actualidad y tiempos que corren. Existen numerosas plataformas de entretenimiento digitales como Netflix, HBO o Amazon Prime
 entre otras.
 
 
-Al haber una gran cantidad de plataformas hay una gran competencias entre estás y lo que diferenciaran las unas a las otras serán sus precios y contenido exclusivo,
-es decir que solo se encuentran disponible en su plataforma. En ocasiones una serie pasa de plataforma en plataforma dejando a los usuarios dudativos a la hora de
-encontrar su serie o pelicula en dichas plataforma, es por esta razon por la que surje esta aplicación.
+Al haber una gran cantidad de plataformas hay una gran competencias entre estás y lo que diferenciarán las unas a las otras serán sus precios y contenido exclusivo,
+es decir que solo se encuentran disponibles en su plataforma. En ocasiones una serie pasa de plataforma en plataforma dejando a los usuarios dubitativo a la hora de
+encontrar su serie o película en dichas plataforma, es por esta razón por la que surge esta aplicación.
 
 
-La idea principal de WHERE TO WHATCH, es hacer la vida mas fácil al usuario a la hora de encontrar en que plataforma esta ubicada su pelicula/serie a visualizar.
+La idea principal de WHERE TO WATCH, es hacer la vida mas fácil al usuario a la hora de encontrar en que plataforma esta ubicada su película/serie a visualizar.
 
-Por ejemplo un usuario desea ver una pelicula, el dispone de Netflix y HBO, este usuario no sabe si dicha pelicula esta en alguna de sus plataforma, es aqui cuando 
-nuestra aplicación le puede ayudar a buscar que plataforma de streaming tiene los derechos de esta pelicula/serie.
+Por ejemplo un usuario desea ver una película, el dispone de Netflix y HBO, este usuario no sabe si dicha película esta en alguna de sus plataforma, es aqui cuando 
+nuestra aplicación le puede ayudar a buscar que plataforma de streaming tiene los derechos de esta película/serie.
 
-Ademas de esta principal idea, esta aplicación recomendaria al usuario series/peliculas dependiendo de peliculas/series vistas anteriormente en toda las plataformas
+Además de esta principal idea, esta aplicación recomienda al usuario series/películas dependiendo de películas/series vistas anteriormente en toda las plataformas
 que posea. Esto existe en las propias plataformas pero lo que buscamos aqui, es que sea global que si un usuario tiene Netflix y HBO las recomendaciones de 
-peliculas/series se realicen respecto a las series/peliculas vistas en ambas plataformas.
+películas/series se realicen respecto a las series/películas vistas en ambas plataformas.
 
-Tambien podran estar informados de las noticias de sus series/peliculas favoritas, futuros estrenos etc.
+Tambien podrán estar informados de las noticias de sus series/películas favoritas, futuros estrenos etc.
 
 Otras ideas son: 
 
 <ul>
-    <li>Con esta aplicación puedas encontrar el cine mas cercano, con su cartelera.</li>
-    <li>Poder buscar peliculas atraves de actores,directores, compañia (por ejemplo Marvel, DC,etc).</li>
-    <li>Valoraciones de peliculas/series.</li>
-    <li>Calendario con estrenos de peliculas/series que hayas seleccionado.</li>
-    <li>Ver contenido por categorías.</li>
+    <li>Con esta aplicación puedes encontrar el cine más cercano, con su cartelera.</li>
+    <li>Poder buscar películas a través de actores,directores, compañía (por ejemplo Marvel, DC,etc).</li>
+    <li>Valoraciones de películas/series.</li>
+    <li>Calendario con estrenos de películas/series que hayas seleccionado.</li>
+    <li>Ver contenido por géneros.</li>
     <li>Encontrar ofertas de las plataformas de streaming</li>
     <li>Poder ver trailers redireccionados a youtube</li>
 </ul>
@@ -50,6 +50,7 @@ Otras ideas son:
 
 
 <img src="https://raw.githubusercontent.com/JesusSosaMorales/PGL_Jesus/master/EntidadRelacion.png">
+
 
 
 
