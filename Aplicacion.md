@@ -48,16 +48,15 @@ Otras ideas son:
 
 ### MODELO ENTIDAD RELACIÓN
 
-Usuario(Nick,Nombre,edad,generofav,peliculasfav,seriefav)
+<ul>
+    <li>Usuario(Nick,Nombre,edad,generofav,peliculasfav,seriefav)</li>
+    <li>Plataforma(Id,Nombre,Dueño,Precio)</li>
+    <li>Peliculas/Series(id,Nombre,fechalanzamiento,genero,pegi,duracion,precio,valoracion)</li>
+    <li>Genero(id,nombre,descripcion)</li>
+    <li>Trabajadores(id,nombre,apellidos,fehcanacimiento,edad,nacionalidad)</li>
+    <li>Trabajadores serian actores o directores</li>
+</ul>
 
-Plataforma(Id,Nombre,Dueño,Precio)
-
-Peliculas/Series(id,Nombre,fechalanzamiento,genero,pegi,duracion,precio,valoracion)
-
-Genero(id,nombre,descripcion)
-Trabajadores(id,nombre,apellidos,fehcanacimiento,edad,nacionalidad)
-
-Trabajadores serian actores o directores
 
 <img src="https://raw.githubusercontent.com/JesusSosaMorales/PGL_Jesus/master/EntidadRelacion.png">
 
