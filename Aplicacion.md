@@ -53,5 +53,11 @@ Otras ideas son:
 
 
 
+### DIAGRAMA DE CASOS DE USOS
+
+<img src="https://raw.githubusercontent.com/JesusSosaMorales/PGL_Jesus/master/UsosdeCaso.png">
+
+
+
 
 
