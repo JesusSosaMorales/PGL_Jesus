@@ -48,8 +48,11 @@ Otras ideas son:
 ### MODELO ENTIDAD RELACIÓN
 
 Usuario(Nick,Nombre,edad,generofav,peliculasfav,seriefav)
+
 Plataforma(Id,Nombre,Dueño,Precio)
+
 Peliculas/Series(id,Nombre,fechalanzamiento,genero,pegi,duracion,precio,valoracion)
+
 Genero(id,nombre,descripcion)
 Trabajadores(id,nombre,apellidos,fehcanacimiento,edad,nacionalidad)
 
