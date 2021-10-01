@@ -49,7 +49,7 @@ Otras ideas son:
 
 
 
-<img src="https://raw.githubusercontent.com/JesusSosaMorales/PGL_Jesus/master/EntidadRelacion.png">
+<img src="https://raw.githubusercontent.com/JesusSosaMorales/PGL_Jesus/master/img/EntidadRelacion.png">
 
 
 
