@@ -55,7 +55,9 @@ Otras ideas son:
     <li>Genero(id,nombre,descripcion)</li>
     <li>Trabajadores(id,nombre,apellidos,fehcanacimiento,edad,nacionalidad)</li>    
 </ul>
-Trabajadores serian actores o directores
+    
+<p>Trabajadores serian actores o directores</p>
+
 
 <img src="https://raw.githubusercontent.com/JesusSosaMorales/PGL_Jesus/master/EntidadRelacion.png">
 
