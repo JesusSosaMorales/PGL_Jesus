@@ -1,10 +1,11 @@
-## ANÁLISIS CREACIÓN DE MI APLICACIÓN
+<div align="justify">
+    
+# WHRE TO WATCH?
+
+## CREADOR
 
 Jesus Sosa Morales
 
-### NOMBRE
-
-WHERE TO WATCH?
 
 
 ### IDEA DE LA APLICACIÓN
@@ -67,6 +68,6 @@ Trabajadores serian actores o directores
 <img src="https://raw.githubusercontent.com/JesusSosaMorales/PGL_Jesus/master/UsosdeCaso.png">
 
 
-
+</div>
 
 
