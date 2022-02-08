@@ -36,7 +36,121 @@ se agregó en la Beta 1.3, lo que permite a los desarrolladores construir juegos
 El código fuente está disponible para los usuarios finales con limitaciones: 
 Los usuarios no pueden liberar públicamente el código fuente del motor Lumberyard como propio ni utilizarlo para lanzar su propio motor de juego.
 
-## Requisitos minimos
+## Juegos realizados con Amazon Lumberyard
+
+Desde que se creo este motor grafico en 2016, se han creado una gran variedad de juegos, producidos por diferentes empresas, al principio estaba muy asociada a Amazon Game Studios, pero poco a poco mas empresas decidieron optar por este motor gráfico para la realizacion de videojuegos.
+
+Unos ejemplos de juegos creados con este motor gráfico serian:
+
+- <b>Coffence:</b>
+  
+  Coffence es una mezcla de juegos de lucha y shooters, se publico en Octubre de 2018 y fue desarrollado y producido por Sweet Bandits Studios.
+  
+  <b> Trailer </b>
+  
+  <table align="center">
+  
+  <tr >
+      <td>
+  
+    [![Trailes Coffence](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHWdJOuNM9zDqerFkBf_kpVDIlYUcBd60Qlg&usqp=CAU)](https://www.youtube.com/watch?v=P2rBJmW4FUM)
+  
+  </td>  
+    </tr>
+    </table>
+    
+  <b> Imagenes </b>
+  
+    <table align="center">
+
+    <tr >
+      <td> 
+        <img width="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK_oTF9iQiVnm1LcRUnH5hsjmuUPbB37mfCQ&usqp=CAU">
+      </td>  
+      <td>
+        <img width="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3HeWSZuRVFNpIBnnRvxt5nCkPOfJeQIR4YQ&usqp=CAU">
+      </td>  
+      <td>
+        <img width="200" src="https://media.indiedb.com/images/members/5/4052/4051911/profile/space.jpg">
+      </td>  
+    </tr>
+
+  </table>
+  
+  
+- <b>The Grand Tour Game:</b>
+- 
+  The Grand Tour Game es un juego de coches basado en el show británico de televisión automovilística para Amazon Video presentada por Jeremy Clarkson, Richard Hammond y James May, su fecha de lanzamiento fue el 15 de Enero de 2019 y fue producido y desarrollado por Amazon Game Studios y esta disponible para Playstation 4 y Xbox One
+  
+  <b> Trailer </b>
+  
+  <table align="center">
+  
+  <tr >
+      <td>
+  
+    [![Traile The Grand Tour Game](https://i.blogs.es/e52649/the-grand-tour-game-key-art-86107-/1366_2000.jpg)](https://www.youtube.com/watch?v=9qGoKiDOUyA)
+  
+  </td>  
+    </tr>
+    </table>
+    
+  <b> Imagenes </b>
+  
+    <table align="center">
+
+    <tr >
+      <td> 
+        <img width="200" src="https://www.gamereactor.es/media/37/grandtourgame_2823713_1200x675.png">
+      </td>  
+      <td>
+        <img width="200" src="https://as01.epimg.net/meristation/imagenes/2018/08/22/noticias/1534937111_909096_1534937156_portada_normal.jpg">
+      </td>  
+      <td>
+        <img width="200" src="https://mediamaster.vandal.net/i/768x432/1-2019/201912118435419_1.jpg">
+      </td>  
+    </tr>
+
+  </table>
+  
+- <b>New World:</b>
+
+  New World es un videojuego de rol multijugador masivo en línea (MMO) desarrollado por Amazon Game Studios, con fecha de lanzamiento  28 de septiembre de 2021.
+  
+  <b> Trailer </b>
+  
+  <table align="center">
+  
+  <tr >
+      <td>
+  
+    [![Traile The Grand Tour Game](https://images.ctfassets.net/j95d1p8hsuun/29peK2k7Ic6FsPAVjHWs8W/06d3add40b23b20bbff215f6979267e8/NW_OPENGRAPH_1200x630.jpg)](https://www.youtube.com/watch?v=m1C5dLnvlzg)
+  
+  </td>  
+    </tr>
+    </table>
+    
+  <b> Imagenes </b>
+  
+    <table align="center">
+
+    <tr >
+      <td> 
+        <img width="200" src="https://images.ctfassets.net/j95d1p8hsuun/46V1STydpttKqHuQqeNzJZ/c4585d6706d41b864dffb40bc652e64e/NewWorld_Combat_01_1920x1080.jpg">
+      </td>  
+      <td>
+        <img width="200" src="https://as01.epimg.net/meristation/imagenes/2019/12/16/noticias/1576497111_002722_1576497425_sumario_normal.jpg">
+      </td>  
+      <td>
+        <img width="200" src="https://i.3djuegos.com/juegos/13918/new_world/fotos/maestras/new_world-5544276.jpg">
+      </td>  
+    </tr>
+
+  </table>
+
+
+
+## Requisitos minimos de Amazon Lumberyard
 
 <b>Hardware</b>
 
@@ -88,6 +202,68 @@ Asegúrese de que las siguientes características de Visual Studio están habili
       - (Opcional) Para compilar con el conjunto de herramientas de Visual Studio 2017 en Visual Studio 2019, seleccioneHerramientas de compilación MSVC v141 - VS 2017 C++ x64/x86.
 
 ## Instalacion
+
+Primero nos dirigimos a la pagina de Amazon Lumberyand para descargar el instalador:
+
+Puedes acceder a ella con este enlace: https://docs.aws.amazon.com/es_es/lumberyard/latest/userguide/setting-up-downloading-lumberyard.html
+
+Para utilizar el instalador de Lumberyard
+
+1. Vaya al directorio de descargas y ejecute el archivo ejecutable del instalador de Lumberyard:LumberyardInstaller.exe
+
+2. (Opcional)Para cambiar la ubicación de la instalación, seleccioneOpciones. La ubicación de instalación predeterminada de es C:\Amazon.
+
+3. En la página Bienvenido página del instalador, elija Instalar.
+4. Siga las instrucciones para completar la instalación.
+
+5. En la páginaLa instalación se ha completado correctamentepágina, haga clic enInicie el asistente de configuración de Lumberyardpara instalar el software y SDK de terceros necesarios. Para obtener más información, consulte Ejecución del asistente de configuración de Lumberyard.
+
+
+
+El instalador de Lumberyard extrae los archivos de Lumberyard y añade accesos directos en el escritorio y en el menú de inicio para:
+
+- Asistente de configuración de Lumberyard
+
+- Project Configurator
+
+- Editor de Lumberyard
+
+
+<b>Archivos y directorios de Lumberyard</b>
+Después de instalar Lumberyard, el directorio raíz de Lumberyard incluye las siguientes carpetas y archivos:
+
+- dev
+
+     - _WAF_— Archivos del sistema de compilación Waf.
+
+     -  Bin64: directorio de binarios y archivos de configuración para el compilador de recursos.
+
+     -  Bin64vc141: directorio de binarios y archivos de configuración para Visual Studio 2017.
+
+     - Bin64vc142: directorio de binarios y archivos de configuración para Visual Studio 2019.
+
+     - Code: directorio de archivos de código fuente y archivos de soluciones.
+
+     - Editor— activos del editor.
+
+     - Engine— activos del motor.
+
+     - Gems— activos y sistemas opcionales.
+
+     - MultiplayerSample: proyecto de muestra de multijugador que ilustra cómo crear un juego multijugador con el nuevo sistema de entidad de componentes. Para obtener más información, consulte Multiplayer Sample.
+
+     - ProjectTemplates: archivos de configuración, bibliotecas y scripts para la plantilla vacía.
+
+     - SamplesProject— proyecto de muestra. Para obtener más información, consulte Proyecto de ejemplos.
+
+     - Tools— herramientas y complementos de terceros.
+
+     - engineroot.txt— Archivo del sistema requerido por Lumberyard Setup Assistant.
+
+- 3rdParty
+
+     - Software de terceros necesario para utilizar o compilar Lumberyard
+     - 3rdParty.txt: archivo del sistema que utilizan otras herramientas de terceros para verificar el directorio.
 
 
 
