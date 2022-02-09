@@ -36,6 +36,17 @@ se agregó en la Beta 1.3, lo que permite a los desarrolladores construir juegos
 El código fuente está disponible para los usuarios finales con limitaciones: 
 Los usuarios no pueden liberar públicamente el código fuente del motor Lumberyard como propio ni utilizarlo para lanzar su propio motor de juego.
 
+## Caracteristicas
+
+Lumberyard nos ofrece una gran cantidad de características unos ejemplos serian:
+
+-Técnicas de renderizado vanguardistas como: renderizado basado en física, iluminación global dinámica, ondulaciones dinámicas de la superficie del agua, destellos de lentes HDR, desenfoque de movimiento, profundidad de campo, entre muchas otras.
+-Editor de juego en tiempo real que permite iterar en elementos de juego e inmediatamente ver los resultados.
+-Red Robusta a través del uso de un subsistema de red flexible llamado GridMate. GridMate se integra con los principales servicios de red online y te permite manejar tipologías de servidor cliente peer to peer con migración de host.
+-Modular Gems te ofrece una librería de varias características pre-elaboradas (cámara, controles, y entorno, entre otras) que pueden usarse para empezar nuevos proyectos rápidamente. Gems te da un mayor control sobre que tecnologías quieres incluir en tu proyecto.
+-Desarrollo en C++, y acceso total a su código fuente en C++ nativo. El motor (y todo su código fuente) se puede descargar y usar gratuitamente. Sin embargo, Amazon espera generar dinero a través del uso de su servicio de computación en la nube AWS.
+
+
 ## Juegos realizados con Amazon Lumberyard
 
 Desde que se creo este motor grafico en 2016, se han creado una gran variedad de juegos, producidos por diferentes empresas, al principio estaba muy asociada a Amazon Game Studios, pero poco a poco mas empresas decidieron optar por este motor gráfico para la realizacion de videojuegos.
@@ -79,7 +90,7 @@ Unos ejemplos de juegos creados con este motor gráfico serian:
   
   
 - <b>The Grand Tour Game:</b>
-- 
+ 
   The Grand Tour Game es un juego de coches basado en el show británico de televisión automovilística para Amazon Video presentada por Jeremy Clarkson, Richard Hammond y James May, su fecha de lanzamiento fue el 15 de Enero de 2019 y fue producido y desarrollado por Amazon Game Studios y esta disponible para Playstation 4 y Xbox One
   
   <b> Trailer </b>
@@ -228,6 +239,44 @@ El instalador de Lumberyard extrae los archivos de Lumberyard y añade accesos d
 
 - Editor de Lumberyard
 
+Depende de las funcionalidades que aceptemos en el instalador nuestro ide tendra un aspecto u otro.
+
+<p align="center">
+  <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture00.PNG">
+</p>
+
+El Lanzador te ayudará a asegurarte que siempre tengas el software necesario para la ejecución de tareas. Te muestra donde se ubica la ruta de instalación predeterminada y qué acciones pueden realizarse basándose en el software que actualmente está instalado.
+
+Tu siguiente paso es seleccionar tres opciones:
+
+-Ejecutar tu proyecto de juego
+-Ejecutar el Editor de Lumberyard y las Herramientas
+-Compilar el código del juego
+
+<p align="center">
+  <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture01.PNG">
+</p>
+
+Los siguientes pasos son asegurarse de tener todo lo necesario instalado para ello nos fijamos en la interfaz si vemos que nos pone una cruz roja es que faltan paquetes por seleccionar, en caso contrario si vemos un tick verde es que esta todo correcto por lo que podemos pulsar "next".
+
+La interfaz Summary muestra registro de actividades (basado en acciones previas) y tres principales opciones:
+
+Configurar proyecto
+Lanzar el editor de Lumberyard
+Una lista de software opcional que pudieras querer instalar.
+Ésta interfaz de aquí en adelante se llama Lumberyard Launcher (o simplemente Launcher). Haz click en Configure project (configurar proyecto).
+
+
+<p align="center">
+  <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture05.PNG">
+</p>
+
+Una vez finalizado aparecera una nueva interfaz (Asset Processor). El Asset Processor es responsable de cargar los recursos del proyecto predeterminado de Lumberyard . El tiempo estimado es de poco más de 10 minutos, al finalizar veremos algo asi:
+
+<p align="center">
+  <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture08.PNG">
+</p>
+
 
 <b>Archivos y directorios de Lumberyard</b>
 Después de instalar Lumberyard, el directorio raíz de Lumberyard incluye las siguientes carpetas y archivos:
@@ -267,9 +316,73 @@ Después de instalar Lumberyard, el directorio raíz de Lumberyard incluye las s
 
 
 
-## Primeros pasos
+## Primeros pasos && Herramientas de Amazon Lumberyard
 
-## Herramientas de Amazon Lumberyard
+Empezamos por el  Project configurator muestra varios proyectos con configuraciones, paquetes y recursos específicos. Aquí puedes crear tus proyectos y seleccionar los recuros o configuraciones específicas que el proyecto utilizará.
+
+Inicialmente tienes únicamente dos proyectos disponibles (MultiplayerProject y SamplesProject). Como el nombre indica, el primero es un proyecto multijugador, mientras que el segundo es un proyecto más genérico (inicialmente es el que mas se utiliza para aprender).
+
+SamplesProject es resaltado con un palomita blanca. Ello significa que éste proyecto es el proyecto predeterminado cargado por Lumberyard. Haz click en Enable packages (Habilitar paquetes).
+
+<p align="center">
+  <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture06.PNG">
+</p>
+
+Aquí accesas a las Gems (Gemas) disponibles de Lumberyard. Una Gem es una colección de recursos y otros elemenetos para extender o modificar la funcionalidad en aplicaciones Lumberyard. Varias Gems están disponibles, como puedes ver.
+
+<p align="center">
+  <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture07.PNG">
+</p>
+
+Lumberyard ofrece recursos y códigos adicionales listos para usarse que puedes utilizar como por ejemplo:
+
+-Woodland: Una colección recursos sobre naturaleza (bosque, vegetación y otros elementos naturales).
+-Beach City: Una noche oscura y tormentosa que contiene varios recursos (autos, casas, vegetación).
+-Legacy Games Sample: Un juego FPS listo para usarse, incluyendo complejos caracteres animados, vehículos y acciones inteligentes (IA) . Éste ejemplo usa los recursos del ejemplo woodland.
+
+La descarga de estos paquetes se hacen mediante las Gems, por esto es importante esta funcionalidad, pues podemos utilizar herramientas y recursos adicionales para nuestro proyecto.
+
+
+<b>Layout (Maquetación) del Editor</b>
+
+Antes de utilizar el Lumberyard Editor, necesitarás aprender la configuración de su layout, y cómo navegar dentro de la Perspective Viewport (Ventana Gráfica de Perspectiva).
+
+La interfaz del Lumberyard Editor se divide en las siguientes áreas (cada una representada numéricamente en la siguiente imagen):
+
+1.Main menu (menú principal): Accesar a todas las funciones y configuraciones del motor de juego.
+
+2.Editor toolbar (barra de herramientas del editor): las herramientas más comúnmente utilizadas (Select, Move, Rotate, Scale, Lock on, Ruler, Snapping, entre otras). Se compone de tres barras: EditMode, Object, Editors.
+
+3.Viewport header: barra de búsqueda y varias opciones de visualización para la Perspective Viewport (visualizar resolución, relación de aspecto, helpers, entre otros).
+
+4.Perspective Viewport: una vista previa de tu entorno 3D. Es dónde ocurre la acción.
+
+5.Viewport controls: varios controles para objetos seleccionados, ubicación del mouse, velocidad de navegación, detección de colisión de la cámara, AI/Físicas y otros.
+
+6.Console: Muestra de elementos de entrada y salida entre el usuario y el Editor.
+
+7.Rollup Bar: Accesar a objetos y herramientas para crear y gestionar contenido en la Perspective Viewport.
+
+<p align="center">
+  <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture12.jpg">
+</p>
+
+La area denominada  Rollup Bar es más compleja de lo parece inicialmente, ya que maneja todas las propiedades, definiciones y características de todos los objetos dentro de la Perspective Viewport. Por lo tanto, es importante enumerar sus pestañas:
+
+1.Objects: contiene opciones para Inteligencia Artificial, Entidades (Actor, Arquetipo, Componente, Geometría, Partículas), Audio, Pinceles, y Prefabs, entre otros.
+
+2.Terrain: contiene opciones para aplicar, modificar, y remover terrenos, vegetación, agujeros, Niebla, Viento, Nubes, Skyboxes y otros.
+
+3.Modeling: contiene opciones para el manejo de la geometría, como selección de tipos de geometría y mostrar tipos (prototipo, asignación de un color único, geometría total).
+
+4.Display: contiene opciones concernientes a la configuración de renderizado, es decir, nubes, caminos, Niebla, Terreno y Sky box (cielo), entre otros.
+
+5.Layers: como su nombre lo indica, contiene opciones para organizar tus recursos por capas.
+
+<p align="center">
+  <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture13.PNG">
+</p>
+
 
 ## Proyecto Hola Mundo
 
