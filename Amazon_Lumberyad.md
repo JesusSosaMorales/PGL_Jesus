@@ -275,6 +275,12 @@ Después de instalar Lumberyard, el directorio raíz de Lumberyard incluye las s
 
 ## Referencias
 
+- https://aws.amazon.com/es/lumberyard/
+- https://es.wikipedia.org/wiki/Amazon_Lumberyard
+- https://mitsoftware.com/desarrollo-de-juegos-amazon-lumberyard/
+- https://www.gamesindustry.biz/articles/2020-10-16-what-is-the-best-game-engine-is-amazon-lumberyard-right-for-you
+- https://www.youtube.com/watch?v=x0p7bMO7Lk4
+
 
 
 
