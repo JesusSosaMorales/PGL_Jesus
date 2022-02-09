@@ -385,6 +385,8 @@ La area denominada  Rollup Bar es más compleja de lo parece inicialmente, ya qu
 
 Este programa ofrece modelados 3D por defecto, creados por la propia Amazon, aunque se pueden crear o importar los que queramos, acontinuación veremos ejemplos:
 
+
+
 <table align="center">
 
     <tr >
