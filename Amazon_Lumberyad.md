@@ -385,23 +385,33 @@ La area denominada  Rollup Bar es más compleja de lo parece inicialmente, ya qu
 
 Este programa ofrece modelados 3D por defecto, creados por la propia Amazon, aunque se pueden crear o importar los que queramos, acontinuación veremos ejemplos:
 
+<p align="center">
+  
+  
+  <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture15.jpg">
+</p>
+
+Modelado por defecto
+
+<p align="center">
+  
+  
+  <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture18.jpg">
+</p>
+
+Modelado con paquete
+
+<p align="center">
+ 
+  
+  <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/final_image/lumberyard_editor_relay_1.jpg">
+</p>
+
+ Modelado realizado por diseñador 3d
 
 
-<table align="center">
 
-    <tr >
-      <td> 
-        <img width="200" src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture15.jpg">
-      </td>  
-      <td>
-        <img width="200" src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture18.jpg">
-      </td>  
-      <td>
-        <img width="200" src="https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/46349136-c31a-4dff-8835-18da5f18dfe6.png">
-      </td>  
-    </tr>
-
-  </table>
+   
 
 
 ## Proyecto Hola Mundo
@@ -409,16 +419,23 @@ Este programa ofrece modelados 3D por defecto, creados por la propia Amazon, aun
 <b>C++</b>
 
 #include <stdio.h>
+
 #include <stdlib.h>
 
 int main() {
+
     printf("Hola Mundo \n \n");
+    
     return 0;
+    
 }
+
 
 <b>Lua</b>
 
+
 print("Hola Mundo")
+
 
 ## Referencias
 
