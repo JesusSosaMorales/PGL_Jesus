@@ -44,7 +44,7 @@ Lumberyard nos ofrece una gran cantidad de características unos ejemplos serian
 -Editor de juego en tiempo real que permite iterar en elementos de juego e inmediatamente ver los resultados.
 -Red Robusta a través del uso de un subsistema de red flexible llamado GridMate. GridMate se integra con los principales servicios de red online y te permite manejar tipologías de servidor cliente peer to peer con migración de host.
 -Modular Gems te ofrece una librería de varias características pre-elaboradas (cámara, controles, y entorno, entre otras) que pueden usarse para empezar nuevos proyectos rápidamente. Gems te da un mayor control sobre que tecnologías quieres incluir en tu proyecto.
--Desarrollo en C++, y acceso total a su código fuente en C++ nativo. El motor (y todo su código fuente) se puede descargar y usar gratuitamente. Sin embargo, Amazon espera generar dinero a través del uso de su servicio de computación en la nube AWS.
+-Desarrollo en C++ , Lua, y acceso total a su código fuente en C++ nativo. El motor (y todo su código fuente) se puede descargar y usar gratuitamente. Sin embargo, Amazon espera generar dinero a través del uso de su servicio de computación en la nube AWS.
 
 
 ## Juegos realizados con Amazon Lumberyard
@@ -383,8 +383,40 @@ La area denominada  Rollup Bar es más compleja de lo parece inicialmente, ya qu
   <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture13.PNG">
 </p>
 
+Este programa ofrece modelados 3D por defecto, creados por la propia Amazon, aunque se pueden crear o importar los que queramos, acontinuación veremos ejemplos:
+
+<table align="center">
+
+    <tr >
+      <td> 
+        <img width="200" src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture15.jpg">
+      </td>  
+      <td>
+        <img width="200" src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture18.jpg">
+      </td>  
+      <td>
+        <img width="200" src="https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/46349136-c31a-4dff-8835-18da5f18dfe6.png">
+      </td>  
+    </tr>
+
+  </table>
+
 
 ## Proyecto Hola Mundo
+
+<b>C++</b>
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    printf("Hola Mundo \n \n");
+    return 0;
+}
+
+<b>Lua</b>
+
+print("Hola Mundo")
 
 ## Referencias
 
@@ -393,6 +425,10 @@ La area denominada  Rollup Bar es más compleja de lo parece inicialmente, ya qu
 - https://mitsoftware.com/desarrollo-de-juegos-amazon-lumberyard/
 - https://www.gamesindustry.biz/articles/2020-10-16-what-is-the-best-game-engine-is-amazon-lumberyard-right-for-you
 - https://www.youtube.com/watch?v=x0p7bMO7Lk4
+- https://gamedevelopment.tutsplus.com/es/tutorials/amazon-lumberyard-flow-graph--cms-26601
+- https://www.thefastcode.com/es-eur/article/get-started-in-amazon-lumberyard-setting-up
+- https://www.youtube.com/watch?v=x0p7bMO7Lk4
+- https://bytelix.com/juegos/lumberyard-la-apuesta-de-amazon-para-entrar-en-el-mercado-de-los-videojuegos/
 
 
 
