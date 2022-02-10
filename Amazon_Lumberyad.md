@@ -437,9 +437,9 @@ int main() {
 
 <b>Lua</b>
 
-
+```
 print("Hola Mundo")
-
+```
 
 ## Referencias
 
