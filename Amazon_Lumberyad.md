@@ -421,7 +421,7 @@ Modelado con paquete
 ## Hola Mundo en su lenguaje de programacion
 
 <b>C++</b>
-
+```cpp
 #include <stdio.h>
 
 #include <stdlib.h>
@@ -433,7 +433,7 @@ int main() {
     return 0;
     
 }
-
+```
 
 <b>Lua</b>
 
