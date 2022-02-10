@@ -461,3 +461,4 @@ A pesar de esto es una herramienta muy potente para desarrollo de videojuegos 3D
 - https://www.thefastcode.com/es-eur/article/get-started-in-amazon-lumberyard-setting-up
 - https://www.youtube.com/watch?v=x0p7bMO7Lk4
 - https://bytelix.com/juegos/lumberyard-la-apuesta-de-amazon-para-entrar-en-el-mercado-de-los-videojuegos/
+- https://www.youtube.com/watch?v=oFqzTsVkNUA
