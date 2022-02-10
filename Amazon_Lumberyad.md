@@ -43,11 +43,11 @@ Los usuarios no pueden liberar públicamente el código fuente del motor Lumbery
 
 Lumberyard nos ofrece una gran cantidad de características unos ejemplos serian:
 
--Técnicas de renderizado vanguardistas como: renderizado basado en física, iluminación global dinámica, ondulaciones dinámicas de la superficie del agua, destellos de lentes HDR, desenfoque de movimiento, profundidad de campo, entre muchas otras.
--Editor de juego en tiempo real que permite iterar en elementos de juego e inmediatamente ver los resultados.
--Red Robusta a través del uso de un subsistema de red flexible llamado GridMate. GridMate se integra con los principales servicios de red online y te permite manejar tipologías de servidor cliente peer to peer con migración de host.
--Modular Gems te ofrece una librería de varias características pre-elaboradas (cámara, controles, y entorno, entre otras) que pueden usarse para empezar nuevos proyectos rápidamente. Gems te da un mayor control sobre que tecnologías quieres incluir en tu proyecto.
--Desarrollo en C++ , Lua, y acceso total a su código fuente en C++ nativo. El motor (y todo su código fuente) se puede descargar y usar gratuitamente. Sin embargo, Amazon espera generar dinero a través del uso de su servicio de computación en la nube AWS.
+- Técnicas de renderizado vanguardistas como: renderizado basado en física, iluminación global dinámica, ondulaciones dinámicas de la superficie del agua, destellos de lentes HDR, desenfoque de movimiento, profundidad de campo, entre muchas otras.
+- Editor de juego en tiempo real que permite iterar en elementos de juego e inmediatamente ver los resultados.
+- Red Robusta a través del uso de un subsistema de red flexible llamado GridMate. GridMate se integra con los principales servicios de red online y te permite manejar tipologías de servidor cliente peer to peer con migración de host.
+- Modular Gems te ofrece una librería de varias características pre-elaboradas (cámara, controles, y entorno, entre otras) que pueden usarse para empezar nuevos proyectos rápidamente. Gems te da un mayor control sobre que tecnologías quieres incluir en tu proyecto.
+- Desarrollo en C++ , Lua, y acceso total a su código fuente en C++ nativo. El motor (y todo su código fuente) se puede descargar y usar gratuitamente. Sin embargo, Amazon espera generar dinero a través del uso de su servicio de computación en la nube AWS.
 
 
 ## Juegos realizados con Amazon Lumberyard
@@ -187,8 +187,8 @@ Unos ejemplos de juegos creados con este motor gráfico serian:
 Puede utilizar el Editor de Lumberyard y las herramientas sin necesidad de instalar software adicional. Para crear nuevos proyectos o utilizar 
 características de desarrollo avanzadas en Lumberyard, necesita un entorno de desarrollador que incluya Microsoft Visual Studio. Las siguientes versiones son compatibles:
 
-- (Recomendado) Versión de Microsoft Visual Studio 201916.2.4a través de la versión16.9.x.
-- Versión de Microsoft Visual Studio 201715.9.14a través de la versión15.9.x.
+- (Recomendado) Versión de Microsoft Visual Studio 2019 16.2.4a través de la versión 16.9.x.
+- Versión de Microsoft Visual Studio 2017 15.9.14a través de la versión 15.9.x.
 
 Características requeridas de Visual Studio 2017 y 2019
 
@@ -207,13 +207,13 @@ Asegúrese de que las siguientes características de Visual Studio están habili
 
     - Seleccione Desarrollo para el escritorio con C++.
 
-4. En la páginaComponentes individualespestaña, enCompiladores, herramientas de compilación y tiempo de ejecución, asegúrese de que unConjunto de herramientas VC++que corresponde a la versión instalada de Visual Studio se ha seleccionado:
+4. En la página Componentes individuales pestaña, en Compiladores, herramientas de compilación y tiempo de ejecución, asegúrese de que un Conjunto de herramientas VC++ que corresponde a la versión instalada de Visual Studio se ha seleccionado:
 
-    - Si utilizaVisual Studio 2017: Seleccione al menos una versión de laConjunto de herramientas VC++ 2017.
+    - Si utiliza Visual Studio 2017: Seleccione al menos una versión de la Conjunto de herramientas VC++ 2017.
 
-    - Si utilizaVisual Studio 2019: Seleccione al menos una versión de laMSVC v142 - Herramienta de compilación VS 2019 C++ x64/x86.
+    - Si utiliza Visual Studio 2019: Seleccione al menos una versión de la MSVC v142 - Herramienta de compilación VS 2019 C++ x64/x86.
 
-      - (Opcional) Para compilar con el conjunto de herramientas de Visual Studio 2017 en Visual Studio 2019, seleccioneHerramientas de compilación MSVC v141 - VS 2017 C++ x64/x86.
+      - (Opcional) Para compilar con el conjunto de herramientas de Visual Studio 2017 en Visual Studio 2019, seleccione Herramientas de compilación MSVC v141 - VS 2017 C++ x64/x86.
 
 ## Instalacion
 
@@ -223,14 +223,15 @@ Puedes acceder a ella con este enlace: https://docs.aws.amazon.com/es_es/lumbery
 
 Para utilizar el instalador de Lumberyard
 
-1. Vaya al directorio de descargas y ejecute el archivo ejecutable del instalador de Lumberyard:LumberyardInstaller.exe
+1. Vaya al directorio de descargas y ejecute el archivo ejecutable del instalador de Lumberyard: LumberyardInstaller.exe
 
-2. (Opcional)Para cambiar la ubicación de la instalación, seleccioneOpciones. La ubicación de instalación predeterminada de es C:\Amazon.
+2. (Opcional)Para cambiar la ubicación de la instalación, seleccioneOpciones. La ubicación de instalación predeterminada es C:\Amazon.
 
 3. En la página Bienvenido página del instalador, elija Instalar.
+
 4. Siga las instrucciones para completar la instalación.
 
-5. En la páginaLa instalación se ha completado correctamentepágina, haga clic enInicie el asistente de configuración de Lumberyardpara instalar el software y SDK de terceros necesarios. Para obtener más información, consulte Ejecución del asistente de configuración de Lumberyard.
+5. En la página "La instalación se ha completado correctamente", haga clic en "Inicie el asistente de configuración de Lumberyard" para instalar el software y SDK de terceros necesarios. Para obtener más información, consulte "Ejecución del asistente de configuración de Lumberyard".
 
 
 
@@ -331,7 +332,7 @@ SamplesProject es resaltado con un palomita blanca. Ello significa que éste pro
   <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture06.PNG">
 </p>
 
-Aquí accesas a las Gems (Gemas) disponibles de Lumberyard. Una Gem es una colección de recursos y otros elemenetos para extender o modificar la funcionalidad en aplicaciones Lumberyard. Varias Gems están disponibles, como puedes ver.
+Aquí accedes a las Gems (Gemas) disponibles de Lumberyard. Una Gem es una colección de recursos y otros elemenetos para extender o modificar la funcionalidad en aplicaciones Lumberyard. Varias Gems están disponibles, como puedes ver.
 
 <p align="center">
   <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture07.PNG">
@@ -339,9 +340,9 @@ Aquí accesas a las Gems (Gemas) disponibles de Lumberyard. Una Gem es una colec
 
 Lumberyard ofrece recursos y códigos adicionales listos para usarse que puedes utilizar como por ejemplo:
 
--Woodland: Una colección recursos sobre naturaleza (bosque, vegetación y otros elementos naturales).
--Beach City: Una noche oscura y tormentosa que contiene varios recursos (autos, casas, vegetación).
--Legacy Games Sample: Un juego FPS listo para usarse, incluyendo complejos caracteres animados, vehículos y acciones inteligentes (IA) . Éste ejemplo usa los recursos del ejemplo woodland.
+- Woodland: Una colección recursos sobre naturaleza (bosque, vegetación y otros elementos naturales).
+- Beach City: Una noche oscura y tormentosa que contiene varios recursos (autos, casas, vegetación).
+- Legacy Games Sample: Un juego FPS listo para usarse, incluyendo complejos caracteres animados, vehículos y acciones inteligentes (IA) . Éste ejemplo usa los recursos del ejemplo woodland.
 
 La descarga de estos paquetes se hacen mediante las Gems, por esto es importante esta funcionalidad, pues podemos utilizar herramientas y recursos adicionales para nuestro proyecto.
 
@@ -352,19 +353,19 @@ Antes de utilizar el Lumberyard Editor, necesitarás aprender la configuración 
 
 La interfaz del Lumberyard Editor se divide en las siguientes áreas (cada una representada numéricamente en la siguiente imagen):
 
-1.Main menu (menú principal): Accesar a todas las funciones y configuraciones del motor de juego.
+1. Main menu (menú principal): Accesar a todas las funciones y configuraciones del motor de juego.
 
-2.Editor toolbar (barra de herramientas del editor): las herramientas más comúnmente utilizadas (Select, Move, Rotate, Scale, Lock on, Ruler, Snapping, entre otras). Se compone de tres barras: EditMode, Object, Editors.
+2. Editor toolbar (barra de herramientas del editor): las herramientas más comúnmente utilizadas (Select, Move, Rotate, Scale, Lock on, Ruler, Snapping, entre otras). Se compone de tres barras: EditMode, Object, Editors.
 
-3.Viewport header: barra de búsqueda y varias opciones de visualización para la Perspective Viewport (visualizar resolución, relación de aspecto, helpers, entre otros).
+3. Viewport header: barra de búsqueda y varias opciones de visualización para la Perspective Viewport (visualizar resolución, relación de aspecto, helpers, entre otros).
 
-4.Perspective Viewport: una vista previa de tu entorno 3D. Es dónde ocurre la acción.
+4. Perspective Viewport: una vista previa de tu entorno 3D. Es dónde ocurre la acción.
 
-5.Viewport controls: varios controles para objetos seleccionados, ubicación del mouse, velocidad de navegación, detección de colisión de la cámara, AI/Físicas y otros.
+5. Viewport controls: varios controles para objetos seleccionados, ubicación del mouse, velocidad de navegación, detección de colisión de la cámara, AI/Físicas y otros.
 
-6.Console: Muestra de elementos de entrada y salida entre el usuario y el Editor.
+6. Console: Muestra de elementos de entrada y salida entre el usuario y el Editor.
 
-7.Rollup Bar: Accesar a objetos y herramientas para crear y gestionar contenido en la Perspective Viewport.
+7. Rollup Bar: Accesar a objetos y herramientas para crear y gestionar contenido en la Perspective Viewport.
 
 <p align="center">
   <img  src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=600/uploads/users/438/posts/26245/image/Capture12.jpg">
