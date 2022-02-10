@@ -4,6 +4,7 @@
 
 ## Introduccion
 
+  
 Un motor de videojuego es un término que hace referencia a una serie de librerías de programación que permiten el diseño, la creación y la representación de un videojuego. 
 El aspecto más destacado a la hora de elegir un motor de videojuegos entre todos los disponibles que hay en el mercado son las capacidades gráficas, ya que son las encargadas de mostrar las imágenes 2D y 3D en pantalla, así como calcular algunos aspectos como los polígonos, la iluminación, las texturas… 
 
@@ -14,8 +15,9 @@ para conocer un poco mejor esta herramienta.
 
 Amazon Lumberyard es un motor de videojuegos multiplataforma gratuito totalmente integrado con AWS (Amazon Web Services) y Twitch que proporciona el código fuente completo.
 Está basado en CryEngine, cuya licencia fue otorgada por Crytek en 2015.El motor se integra con Amazon Web Services para permitir a los desarrolladores construir o alojar 
-sus juegos en los servidores de Amazon, así como para soportar la transmisión en vivo a través de Twitch. Además, el motor incluye Twitch ChatPlay, lo que permite a
-los espectadores del stream de Twitch influir en el juego a través del chat asociado.
+sus juegos en los servidores de Amazon, así como para soportar la transmisión en vivo a través de Twitch. Además, el motor incluye Twitch ChatPlay, lo que permite a los espectadores del stream de Twitch influir en el juego a través del chat asociado.
+
+Disponible en Windows y macOs
 
 
 <table align="center">
