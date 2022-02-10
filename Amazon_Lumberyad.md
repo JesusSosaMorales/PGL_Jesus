@@ -4,7 +4,8 @@
 
 ## Introduccion
 
-El presente repositorio tiene como objetivo la descripción básica de Amazon Lumberyard. Se centrara en la introduccion de esta herramienta de creacion de videojuegos,
+Un motor de videojuego es un término que hace referencia a una serie de librerías de programación que permiten el diseño, la creación y la representación de un videojuego. 
+El aspecto más destacado a la hora de elegir un motor de videojuegos entre todos los disponibles que hay en el mercado son las capacidades gráficas, ya que son las encargadas de mostrar las imágenes 2D y 3D en pantalla, así como calcular algunos aspectos como los polígonos, la iluminación, las texturas… El presente repositorio tiene como objetivo la descripción básica de Amazon Lumberyard. Se centrara en la introduccion de esta herramienta de creacion de videojuegos,
 para conocer un poco mejor esta herramienta.
 
 ## ¿Que es Amazon Lumberyard?
