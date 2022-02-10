@@ -441,6 +441,13 @@ int main() {
 print("Hola Mundo")
 ```
 
+## Conclusion
+
+Aunque Amazon Lumberyard se puede descargar y usar de forma completamente gratuita, como en la mayoría de las soluciones gratuitas, cuenta con una pequeña trampa. Una vez queramos conectarnos a Internet no podremos hacer uso de los servicios ofrecidos por la competencia, deberemos de usar AWS o una solución distinta a las ofrecidas por Microsoft o Google.
+
+A pesar de esto es una herramienta muy potente para desarrollo de videojuegos 3D que requiere de recursos y que se encuentra en continuo desarrollo ya que esta en funcion beta.
+
+
 ## Referencias
 
 - https://aws.amazon.com/es/lumberyard/
@@ -452,11 +459,3 @@ print("Hola Mundo")
 - https://www.thefastcode.com/es-eur/article/get-started-in-amazon-lumberyard-setting-up
 - https://www.youtube.com/watch?v=x0p7bMO7Lk4
 - https://bytelix.com/juegos/lumberyard-la-apuesta-de-amazon-para-entrar-en-el-mercado-de-los-videojuegos/
-
-
-
-
-
-
-
-
